@@ -47,14 +47,15 @@ Headers, pkgconfig and CMake package for amd-dbgapi.
 
 %install
 %ninja_install -C build
+rm -rf %{buildroot}%{_docdir}/rocm-dbgapi %{buildroot}%{_docdir}/rocm-dbgapi-asan
 
 %files
 %license LICENSE.txt
 %doc README.md CHANGELOG.md
-%{_libdir}/libamd-dbgapi.so.*
+%{_libdir}/librocm-dbgapi.so.*
 
 %files devel
 %{_includedir}/amd-dbgapi/
-%{_libdir}/libamd-dbgapi.so
+%{_libdir}/librocm-dbgapi.so
 %{_datadir}/pkgconfig/amd-dbgapi.pc
 %{_libdir}/cmake/amd-dbgapi/
