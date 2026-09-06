@@ -16,6 +16,7 @@ BuildRequires:	rocm-runtime-devel
 BuildRequires:	pkgconfig(libdw)
 BuildRequires:	pkgconfig(libelf)
 BuildRequires:	pkgconfig(libdrm)
+BuildRequires:	cmake(amd_comgr)
 
 %description
 libamd-dbgapi is the low-level GPU debug API used by ROCgdb and
