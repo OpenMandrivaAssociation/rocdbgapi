@@ -17,8 +17,6 @@ BuildRequires:	pkgconfig(libdw)
 BuildRequires:	pkgconfig(libelf)
 BuildRequires:	pkgconfig(libdrm)
 
-ExclusiveArch:	%{x86_64} %{aarch64}
-
 %description
 libamd-dbgapi is the low-level GPU debug API used by ROCgdb and
 the ROCr debug agent.
