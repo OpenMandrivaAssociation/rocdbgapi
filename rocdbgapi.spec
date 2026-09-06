@@ -42,7 +42,7 @@ Headers, pkgconfig and CMake package for amd-dbgapi.
 	-DCMAKE_PREFIX_PATH=%{_prefix} \
 	-G Ninja
 
-%ninja_build -C build
+%ninja_build
 
 %install
 %ninja_install -C build
