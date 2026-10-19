@@ -1,13 +1,13 @@
-# AMD GPU debug API (amd-dbgapi). TheRock 10.0.
+# AMD GPU debug API (amd-dbgapi). TheRock 10.1.
 
 Name:		rocdbgapi
-Version:	10.0.0
+Version:	10.1.0
 Release:	1
 Summary:	AMD GPU debug API library
 License:	MIT
 Group:		Development/Debuggers
 URL:		https://github.com/ROCm/rocm-systems
-Source0:	https://github.com/ROCm/rocm-systems/releases/download/therock-10.0/rocdbgapi.tar.gz#/rocdbgapi-%{version}.tar.gz
+Source0:	https://github.com/ROCm/rocm-systems/releases/download/therock-10.1/rocdbgapi.tar.gz#/rocdbgapi-%{version}.tar.gz
 
 BuildRequires:	rocm-rpm-macros
 BuildRequires:	cmake
